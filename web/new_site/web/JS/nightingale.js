@@ -32,6 +32,8 @@ var nightingale = (function(){
             }
         );
 
+        $('#accordion').accordion();
+
 
         var animateWord = function($words, index){
             var $curword = $($words[index]);
