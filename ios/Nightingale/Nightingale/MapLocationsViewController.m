@@ -74,6 +74,7 @@
 
 - (void)mapView:(MKMapView *)mapView didSelectAnnotationView:(MKAnnotationView *)view
 {
+    [mapView deselectAnnotation:view.annotation animated:NO];
     NSLog(@"annotation %@", view.annotation);
 }
 
