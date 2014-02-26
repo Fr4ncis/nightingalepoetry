@@ -16,11 +16,18 @@ var nightingale = (function(){
 
     var init= function(){
         var isLast = false,
-            $poemDisplay = $('.poem-display');
+            $poemDisplay = $('.poem-display'),
+            buttonclass = '';
 
-        $('.header-wrapper').append('<div class="call-menu"><a href="#" id="navaction">button here<a/></div>');
+        if($('.header').hasClass('visible')){
+            buttonclass = 'expanded';
+        }
+
+
+        $('.header-wrapper').append('<div class="call-menu"><a href="#" class="'+ buttonclass +'"id="navaction">button here<a/></div>');
 
         $('.header-wrapper').on('click','#navaction',function(){
+            $('#navaction').toggleClass('expanded');
             $('.header').toggleClass('visible');
         });
 
