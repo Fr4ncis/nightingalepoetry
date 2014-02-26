@@ -13,89 +13,15 @@ window.requestAnimFrame = (function(callback) {
 //
 
 var nightingale = (function(){
-    var muse = {};
 
-
-    init1 = function(){
-        muse.canvas = $('#poem-blackboard')[0];
-        muse.context = muse.canvas.getContext('2d');
-
-        muse.letterno = 0;
-        muse.lineno = 0;
-        muse.xpos = 10;
-        muse.initialxpos = muse.xpos;
-        muse.initialypos = 20;
-        muse.ypos = 10;
-        muse.incrementx = 12;
-        muse.incrementy = 35;
-        muse.pause = 100;
-        muse.content= [
-            'Asparagus, you timely shoot,',
-            'You portent of the spring',
-            'Volley through the goldern dew,',
-            'Pierce your purple blazing sting;',
-            'Spear the cloying mud and grass,',
-            'Burst them with your mast,',
-            'Break into the waking summer,',
-            'Brave until the last.'
-        ];
-
-        // set font etc
-        muse.context.font = "20pt Kaushan Script";
-        //context.font = "font-family: 'Kaushan Script', cursive;"
-        animate(muse);
-    };
-
-    function animate(muse) {
-        var nextLetter = "";
-        muse.pause = 100;
-        // get content line
-
-        if (muse.letterno === 0 && muse.lineno === 0){
-            muse.ypos = muse.ypos + muse.initialypos;
-        }
-
-        if(muse.content[muse.lineno].length === muse.letterno + 1){
-            muse.pause = 500;
-        }
-
-        if(muse.content[muse.lineno].length < muse.letterno + 1){
-            muse.lineno = muse.lineno + 1;
-            muse.letterno = 0;
-            muse.ypos = muse.ypos + muse.incrementy;
-            muse.xpos = muse.initialxpos;
-
-        }
-
-        if(muse.content.length <= muse.lineno){
-            // exit if at end of content
-            return;
-        }
-
-        nextLetter = muse.content[muse.lineno][muse.letterno];
-        muse.letterno = muse.letterno + 1;
-        muse.context.fillText(nextLetter, muse.xpos, muse.ypos);
-        muse.xpos = muse.xpos + muse.incrementx;
-        muse.context.stroke();
-
-        // console.log(muse.pause);
-        window.setTimeout(
-            function(){
-                animate(muse);
-            },
-            muse.pause
-        );
-
-        // request new frame
-        // requestAnimFrame(function() {
-        //     animate(muse);
-        // });
-    }
-
-    var init2 = function(){
+    var init= function(){
         var isLast = false;
 
-        $('.header-wrapper').append('<div class="call-menu"><a href="#">button here<a/></div>');
+        $('.header-wrapper').append('<div class="call-menu"><a href="#" id="navaction">button here<a/></div>');
+
+        $('.header-wrapper').on('click','#navaction',function(){
+            $('.header').toggleClass('visible');
+        });
 
         $('.verse .first').animate({
                 opacity: 0.8
@@ -161,21 +87,10 @@ var nightingale = (function(){
     };
 
     var _this = {
-        init1:init1,
-        init2:init2
+        init:init
     };
 
     return _this;
 })();
 
-$(
-    function(){
-        if($('#poem-blackboard').length > 0){
-            nightingale.init1();
-        }
-        else{
-            nightingale.init2();
-        }
-
-    }
-);
+$(nightingale.init);
