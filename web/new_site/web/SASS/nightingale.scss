@@ -2,23 +2,6 @@
 @import 'reset';
 @import 'vars';
 
-*{
-    font-family: $nightfont, cursive;
-}
-
-a{
-    color:$black;
-    text-decoration: none;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-a:active{
-    font-weight: bold;
-}
-
 .nightingale{
     background-color:$background;
 }
@@ -26,24 +9,6 @@ a:active{
 
 .footer{
     padding:10px;
-    background-color:$white;
-
-    .site-info{
-        float:right;
-
-        li{
-            float:left;
-            margin:0 17px;
-        }
-
-        li.social{
-            margin:0 2px;
-        }
-
-        li.twitter{
-            margin-top:-4px;
-        }
-    }
 }
 
 .site-logo{
@@ -59,8 +24,7 @@ a:active{
 
 .main,
 .header-wrapper,
-.nav-wrapper,
-.footer-wrapper{
+.nav-wrapper{
     margin:0 auto;
     max-width: 984px;
 }
@@ -99,6 +63,14 @@ a:active{
         text-align: center;
         line-height: 50px;
 
+        a{
+            color:$headerfont;
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
     }
 }
 
@@ -114,16 +86,20 @@ a:active{
     overflow: hidden;
 }
 
+.blackboard{
+    border: 1px solid green;
+    font-family: arial, sans-serif;
+}
+
 .poem-display{
-    margin:20px 0;
+    margin-top:20px;
     text-align: center;
 }
 
 .poem-title{
     color:$black;
-    font-size:1.9em;
+    font-size:1.6em;
     margin-bottom: 10px;
-    font-weight: 700;
 }
 
 .verse{
@@ -135,14 +111,16 @@ a:active{
     .word{
         display:inline-block;
         font-size: 1.2em;
+        font-family: $nightfont, cursive;
         padding:2px 0;
         opacity: 0;
+        font-family: $nightfont, cursive;
     }
 }
 
 .nojs{
     .word{
-        color:$black;
+        color:black;
     }
 }
 
