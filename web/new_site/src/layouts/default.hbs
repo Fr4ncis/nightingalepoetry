@@ -34,15 +34,9 @@
             <nav class="nav" role="nav">
                 <div class="nav-wrapper">
                     <ul class="nav-links">
-                        <li>
-                            <a href="/">About Us</a>
-                        </li>
-                        <li>
-                            <a href="/">Poems</a>
-                        </li>
-                        <li>
-                            <a href="/">Contact</a>
-                        </li>
+                        {{#each  pages}} 
+                            <li><a href ="{{pagename}}">{{data.title }}</a></li> 
+                        {{/each  }}                        
                     </ul>
                 </div>
             </nav>
