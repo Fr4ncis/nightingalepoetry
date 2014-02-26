@@ -18,6 +18,8 @@
 		0A543DBB18BE4C0D00E735E3 /* PoemLanding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A543DBA18BE4C0D00E735E3 /* PoemLanding.jpg */; };
 		0A543DC418BE4F8000E735E3 /* PoemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A543DC218BE4F8000E735E3 /* PoemViewController.m */; };
 		0A543DC518BE4F8000E735E3 /* PoemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A543DC318BE4F8000E735E3 /* PoemViewController.xib */; };
+		0A543DC818BE596400E735E3 /* PoemListen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A543DC618BE596400E735E3 /* PoemListen.jpg */; };
+		0A543DC918BE596400E735E3 /* PoemRead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A543DC718BE596400E735E3 /* PoemRead.jpg */; };
 		D541F2EF18BE4FE600D6C0BD /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D541F2ED18BE4FE600D6C0BD /* NotificationViewController.m */; };
 		D541F2F018BE4FE600D6C0BD /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D541F2EE18BE4FE600D6C0BD /* NotificationViewController.xib */; };
 		D580BA1E18BE2B6600B5D224 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D580BA1D18BE2B6600B5D224 /* Foundation.framework */; };
@@ -69,6 +71,8 @@
 		0A543DC118BE4F8000E735E3 /* PoemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoemViewController.h; sourceTree = "<group>"; };
 		0A543DC218BE4F8000E735E3 /* PoemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoemViewController.m; sourceTree = "<group>"; };
 		0A543DC318BE4F8000E735E3 /* PoemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoemViewController.xib; sourceTree = "<group>"; };
+		0A543DC618BE596400E735E3 /* PoemListen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PoemListen.jpg; sourceTree = "<group>"; };
+		0A543DC718BE596400E735E3 /* PoemRead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PoemRead.jpg; sourceTree = "<group>"; };
 		D541F2EC18BE4FE600D6C0BD /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
 		D541F2ED18BE4FE600D6C0BD /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
 		D541F2EE18BE4FE600D6C0BD /* NotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 		0A543DB718BE4A6500E735E3 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				0A543DC618BE596400E735E3 /* PoemListen.jpg */,
+				0A543DC718BE596400E735E3 /* PoemRead.jpg */,
 				0A543DB818BE4A6500E735E3 /* PoemResume.jpg */,
 				0A543DBA18BE4C0D00E735E3 /* PoemLanding.jpg */,
 			);
@@ -345,11 +351,13 @@
 				D541F2F018BE4FE600D6C0BD /* NotificationViewController.xib in Resources */,
 				D5F80BDE18BE2EC500B69BDC /* MapLocationsViewController.xib in Resources */,
 				D580BA3618BE2B6600B5D224 /* Images.xcassets in Resources */,
+				0A543DC818BE596400E735E3 /* PoemListen.jpg in Resources */,
 				D580BA2818BE2B6600B5D224 /* InfoPlist.strings in Resources */,
 				0A543DC518BE4F8000E735E3 /* PoemViewController.xib in Resources */,
 				D5F80C2318BE319E00B69BDC /* Window.xib in Resources */,
 				0A543DB118BE3FFF00E735E3 /* PoemListenViewController.xib in Resources */,
 				0A543DBB18BE4C0D00E735E3 /* PoemLanding.jpg in Resources */,
+				0A543DC918BE596400E735E3 /* PoemRead.jpg in Resources */,
 				0A543DB918BE4A6500E735E3 /* PoemResume.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
