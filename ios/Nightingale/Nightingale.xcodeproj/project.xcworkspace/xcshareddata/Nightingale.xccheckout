@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4E181FBC-C130-4850-B0CF-F0916612BA3B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Nightingale</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CE1B58E2-CF8E-4C5C-8A5B-4E1EEC0707C6</key>
+		<string>https://github.com/Fr4ncis/nightingalepoetry.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/Nightingale/Nightingale.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CE1B58E2-CF8E-4C5C-8A5B-4E1EEC0707C6</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Fr4ncis/nightingalepoetry.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CE1B58E2-CF8E-4C5C-8A5B-4E1EEC0707C6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CE1B58E2-CF8E-4C5C-8A5B-4E1EEC0707C6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>nightingalepoetry</string>
+		</dict>
+	</array>
+</dict>
+</plist>
