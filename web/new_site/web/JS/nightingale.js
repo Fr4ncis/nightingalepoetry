@@ -126,13 +126,13 @@ var nightingale = (function(){
                             opacity: 0.8
                         },
                         50,
-                        "swing",
+                        "easeInOutCirc",
                         function() {
                             if($words.length <= index + 1){
                                 $nextWords = $words.parent().next('.line').find('.word');
                                 window.setTimeout(function(){
                                     animateWord($nextWords,0);
-                                },400);
+                                },200);
 
                             }
                             else{
