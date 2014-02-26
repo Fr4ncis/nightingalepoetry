@@ -31,7 +31,7 @@
 - (void)setUp
 {
     self.clipsToBounds = NO;
-    self.frame = CGRectMake(0, 0, 80, 80);
+    self.frame = CGRectMake(0, 0, 100, 100);
     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"pinLocationBlack"]];
     [self addSubview:imageView];
 }
