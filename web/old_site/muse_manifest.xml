@@ -1,0 +1,78 @@
+<manifest alg="2" build="704" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="3939829240"/>
+    <file name="index.css" crc="4064167724" ref="index"/>
+    <file name="master_c-master.css" crc="4235951301" ref="index:businesses:contact:our-poets:who-we-are:personal:process:untitled-8"/>
+    <file name="businesses.css" crc="506917268" ref="businesses"/>
+    <file name="contact.css" crc="3932768433" ref="contact"/>
+    <file name="our-poets.css" crc="4162579027" ref="our-poets"/>
+    <file name="who-we-are.css" crc="524927647" ref="who-we-are"/>
+    <file name="personal.css" crc="4037221055" ref="personal"/>
+    <file name="process.css" crc="186008169" ref="process"/>
+    <file name="untitled-8.css" crc="442866740" ref="untitled-8"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="3828297711" ref="index:contact:who-we-are:our-poets:businesses:process:personal:untitled-8"/>
+    <file name="museutils.js" crc="4210811981" ref="index:contact:who-we-are:our-poets:businesses:process:personal:untitled-8"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3812640551" ref="contact:our-poets:index"/>
+    <file name="webpro.js" crc="4369767" ref="businesses:personal"/>
+    <file name="musewpslideshow.js" crc="83045620" ref="businesses:personal"/>
+    <file name="jquery.museoverlay.js" crc="3925244142" ref="businesses:personal"/>
+    <file name="touchswipe.js" crc="261777990" ref="businesses:personal"/>
+    <file name="jquery.watch.js" crc="4199601726" ref="index:contact:who-we-are:our-poets:businesses:process:personal:untitled-8"/>
+  </folder>
+  <folder name="images">
+    <file name="31_tom.jpg" crc="75963540" ref="our-poets"/>
+    <file name="contact.jpg" crc="4007433959" ref="contact"/>
+    <file name="moya pacey-1.jpg" crc="479287260" ref="untitled-8"/>
+    <file name="blank.gif" crc="4208392903" ref="businesses:personal"/>
+    <file name="loading.gif" crc="3815509949" ref="businesses:personal"/>
+    <file name="nightingalelogo.png" crc="91911869" ref="index:contact:who-we-are:our-poets:businesses:process:personal:untitled-8"/>
+    <file name="u943-4.png" crc="4284857757" ref="index:contact:who-we-are:our-poets:businesses:process:personal:untitled-8"/>
+    <file name="u940-4.png" crc="4108951653" ref="index:contact:who-we-are:our-poets:businesses:process:personal:untitled-8"/>
+    <file name="u942-4.png" crc="237628859" ref="index:contact:who-we-are:our-poets:businesses:process:personal:untitled-8"/>
+    <file name="u951-4.png" crc="4103358369" ref="index:contact:who-we-are:our-poets:businesses:process:personal:untitled-8"/>
+    <file name="u944-4.png" crc="329904570" ref="index:contact:who-we-are:our-poets:businesses:process:personal:untitled-8"/>
+    <file name="u945-4.png" crc="4159198881" ref="index:contact:who-we-are:our-poets:businesses:process:personal:untitled-8"/>
+    <file name="facebook_black-copy.png" crc="217999134" ref="index:contact:who-we-are:our-poets:businesses:process:personal:untitled-8"/>
+    <file name="twitter-bird-black.png" crc="287988141" ref="index:contact:who-we-are:our-poets:businesses:process:personal:untitled-8"/>
+    <file name="u433-4.png" crc="35532741" ref="contact"/>
+    <file name="u434-4.png" crc="50598203" ref="contact"/>
+    <file name="u435-10.png" crc="3948162947" ref="contact"/>
+    <file name="david-u647-fr.png" crc="3929701271" ref="our-poets"/>
+    <file name="u1749-13.png" crc="33869132" ref="personal"/>
+    <file name="u1716-10.png" crc="3846067463" ref="personal"/>
+    <file name="u1675-10.png" crc="484520874" ref="personal"/>
+    <file name="u650-14.png" crc="3961270756" ref="our-poets"/>
+    <file name="u652-9.png" crc="4002043639" ref="our-poets"/>
+    <file name="u1871-10.png" crc="4238591221" ref="businesses"/>
+    <file name="u1886-10.png" crc="388720402" ref="businesses"/>
+    <file name="u2183-12.png" crc="3943504003" ref="personal"/>
+    <file name="nightingale images.png" crc="478282718" ref="index:businesses"/>
+    <file name="nightingale images-poemfinalextract.png" crc="454509418" ref="businesses"/>
+    <file name="nightingale images-layer 1.jpg" crc="4160518000" ref="businesses"/>
+    <file name="nightingale images-dan1.png" crc="4128774968" ref="businesses:personal"/>
+    <file name="nightingale images-rox.png" crc="4057317992" ref="businesses"/>
+    <file name="nightingale images-layer 332x39.png" crc="4189408685" ref="businesses"/>
+    <file name="nightingale images-poemfinalextract32x39.png" crc="4089401189" ref="businesses"/>
+    <file name="nightingale images-layer 132x39.jpg" crc="3840590020" ref="businesses"/>
+    <file name="nightingale images-dan132x39.png" crc="3856474082" ref="businesses"/>
+    <file name="nightingale images-rox32x39.png" crc="527959722" ref="businesses"/>
+    <file name="u2231-10.png" crc="419443574" ref="businesses"/>
+    <file name="u2258-11.png" crc="3833213365" ref="businesses"/>
+    <file name="u2272-17.png" crc="4241111720" ref="businesses"/>
+    <file name="u1769-22.png" crc="72094277" ref="process"/>
+    <file name="nightingale images-dan160x73.png" crc="72441205" ref="personal"/>
+    <file name="u2248-10.png" crc="347901990" ref="untitled-8"/>
+    <file name="u2281-6.png" crc="3946619644" ref="index:contact:who-we-are:our-poets:businesses:process:personal:untitled-8"/>
+    <file name="u636-22.png" crc="3912462924" ref="who-we-are"/>
+  </folder>
+  <file name="index.html" crc="3953089667" mt="1373642278211"/>
+  <file name="contact.html" crc="256000842" mt="1373640549375"/>
+  <file name="who-we-are.html" crc="231794496" mt="1375090974288"/>
+  <file name="our-poets.html" crc="4214461319" mt="1373640549379"/>
+  <file name="businesses.html" crc="4026431370" mt="1373640549382"/>
+  <file name="process.html" crc="4253911518" mt="1373645812418"/>
+  <file name="personal.html" crc="144515767" mt="1373640549386"/>
+  <file name="untitled-8.html" crc="4095190375" mt="1373640549389"/>
+</manifest>
