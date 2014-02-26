@@ -95,6 +95,8 @@ var nightingale = (function(){
     var init2 = function(){
         var isLast = false;
 
+        $('.header-wrapper').append('<div class="call-menu"><a href="#">button here<a/></div>');
+
         $('.verse .first').animate({
                 opacity: 0.8
             },

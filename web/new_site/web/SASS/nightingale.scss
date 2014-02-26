@@ -2,23 +2,35 @@
 @import 'reset';
 @import 'vars';
 
+.nightingale{
+    background-color:$background;
+}
+
 .header,
 .footer{
-    background-color: #eee;
     padding:10px;
 }
 
 .site-logo{
-    display: block;
+    display: inline-block;
+    width:200px;
 }
 
-.main{
-    margin:20px auto;
-    max-width: 800px;
+.main,
+.header-wrapper{
+    margin:0 auto;
+    max-width: 984px;
+}
+
+.call-menu{
+    display: inline-block;
+    float:right;
 }
 
 .page-title{
     font-size: 1.4em;
+    height: 0;
+    overflow: hidden;
 }
 
 .blackboard{
