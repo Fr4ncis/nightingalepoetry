@@ -78,4 +78,9 @@
     NSLog(@"annotation %@", view.annotation);
 }
 
+- (IBAction)recenterButtonPressed:(id)sender {
+    CLLocationCoordinate2D locationCoor = CLLocationCoordinate2DMake(51.521008, -0.105025);
+    [self.mapView setRegion:MKCoordinateRegionMakeWithDistance(locationCoor, 4000, 4000) animated:YES];
+    
+}
 @end
