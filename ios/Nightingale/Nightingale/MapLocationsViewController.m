@@ -52,13 +52,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)poemResume:(id)sender
-{
-    PoemViewController *poemViewController = [[PoemViewController alloc] init];
-    poemViewController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
-    [self presentViewController:poemViewController animated:YES completion:nil];
-}
-
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation {
     if ([annotation isKindOfClass:[PoemAnnotation class]])
     {
@@ -84,6 +77,10 @@
 {
     [mapView deselectAnnotation:view.annotation animated:NO];
     NSLog(@"annotation %@", view.annotation);
+    
+    PoemViewController *poemViewController = [[PoemViewController alloc] init];
+    poemViewController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    [self presentViewController:poemViewController animated:YES completion:nil];
 }
 
 - (IBAction)recenterButtonPressed:(id)sender {
