@@ -1,0 +1,129 @@
+@import 'bourbon/bourbon';
+@import 'reset';
+@import 'vars';
+
+.nightingale{
+    background-color:$background;
+}
+
+
+.footer{
+    padding:10px;
+}
+
+.site-logo{
+    display: inline-block;
+    width:200px;
+    margin-top:10px;
+
+    img{
+        height: 40px;
+        width:110px;
+    }
+}
+
+.main,
+.header-wrapper,
+.nav-wrapper{
+    margin:0 auto;
+    max-width: 984px;
+}
+
+.nav{
+    background-color:$white;
+    margin-top: -70px;
+    margin-bottom: 90px;
+    height:0px;
+    display: block;
+    overflow: hidden;
+}
+
+.nojs .nav{
+    background-color:$white;
+    margin-top: -70px;
+    height:90px;
+    display: block;
+}
+
+.visible .nav{
+    height:90px;
+    margin-bottom: 0;
+    overflow: visible;
+}
+
+
+.nav-links{
+    float:right;
+
+    li{
+        float:left;
+        display: block;
+        height: 66px;
+        margin:10px;
+        text-align: center;
+        line-height: 50px;
+
+        a{
+            color:$headerfont;
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+.call-menu{
+    display: inline-block;
+    float:right;
+    margin-top:10px;
+}
+
+.page-title{
+    font-size: 1.4em;
+    height: 0;
+    overflow: hidden;
+}
+
+.blackboard{
+    border: 1px solid green;
+    font-family: arial, sans-serif;
+}
+
+.poem-display{
+    margin-top:20px;
+    text-align: center;
+}
+
+.poem-title{
+    color:$black;
+    font-size:1.6em;
+    margin-bottom: 10px;
+}
+
+.verse{
+
+    .line{
+        display:block;
+    }
+
+    .word{
+        display:inline-block;
+        font-size: 1.2em;
+        font-family: $nightfont, cursive;
+        padding:2px 0;
+        opacity: 0;
+        font-family: $nightfont, cursive;
+    }
+}
+
+.nojs{
+    .word{
+        color:black;
+    }
+}
+
+.verse{
+    margin-bottom: 1em;
+}
