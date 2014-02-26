@@ -7,7 +7,7 @@
 //
 
 #import "NotificationViewController.h"
-
+#import "PoemViewController.h"
 @interface NotificationViewController ()
 
 @end
@@ -40,6 +40,9 @@
 }
 
 - (IBAction)startButtonPressed:(id)sender {
+    PoemViewController *poemViewController = [[PoemViewController alloc] init];
+    poemViewController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    [self presentViewController:poemViewController animated:YES completion:nil];
 }
 
 @end
