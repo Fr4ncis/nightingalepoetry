@@ -114,7 +114,7 @@
 
 - (void)didSelectRead
 {
-    [self.pageViewController setViewControllers:@[self.readViewController] direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
+    [self.pageViewController setViewControllers:@[self.readViewController] direction:UIPageViewControllerNavigationDirectionReverse animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
