@@ -15,7 +15,8 @@ window.requestAnimFrame = (function(callback) {
 var nightingale = (function(){
 
     var init= function(){
-        var isLast = false;
+        var isLast = false,
+            $poemDisplay = $('.poem-display');
 
         $('.header-wrapper').append('<div class="call-menu"><a href="#" id="navaction">button here<a/></div>');
 
@@ -72,7 +73,7 @@ var nightingale = (function(){
             }
         };
 
-        $('.poem-display').on('mouseover','.active .word',function(){
+        $poemDisplay.on('mouseover','.active .word',function(){
             var $this = $(this),
                 $line = $this.parent(),
                 $words = $line.find('.word');
@@ -81,7 +82,17 @@ var nightingale = (function(){
 
             // need to check if the previous line is visible.
             animateWord($words,0);
+        });
 
+        $poemDisplay.on('touchdown',function(){
+            var $this = $(this),
+                $activelines = $this.find(".active"),
+                $line = $($activelines[$activelines.length]),
+                $words = $line.find('.word');
+            isLast = false;
+
+            // need to check if the previous line is visible.
+            animateWord($words,0);
         });
 
     };

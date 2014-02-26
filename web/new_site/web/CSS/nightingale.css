@@ -46,11 +46,34 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  font-family: "Karla", cursive; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+a:active {
+  font-weight: bold; }
+
 .nightingale {
   background-color: #dddddd; }
 
 .footer {
-  padding: 10px; }
+  padding: 10px;
+  background-color: white; }
+  .footer .site-info {
+    float: right; }
+    .footer .site-info li {
+      float: left;
+      margin: 0 17px; }
+    .footer .site-info li.social {
+      margin: 0 2px; }
+    .footer .site-info li.twitter {
+      margin-top: -4px; }
 
 .site-logo {
   display: inline-block;
@@ -62,7 +85,8 @@ table {
 
 .main,
 .header-wrapper,
-.nav-wrapper {
+.nav-wrapper,
+.footer-wrapper {
   margin: 0 auto;
   max-width: 984px; }
 
@@ -94,11 +118,6 @@ table {
     margin: 10px;
     text-align: center;
     line-height: 50px; }
-    .nav-links li a {
-      color: black;
-      text-decoration: none; }
-    .nav-links li a:hover {
-      text-decoration: underline; }
 
 .call-menu {
   display: inline-block;
@@ -110,28 +129,23 @@ table {
   height: 0;
   overflow: hidden; }
 
-.blackboard {
-  border: 1px solid green;
-  font-family: arial, sans-serif; }
-
 .poem-display {
-  margin-top: 20px;
+  margin: 20px 0;
   text-align: center; }
 
 .poem-title {
   color: black;
-  font-size: 1.6em;
-  margin-bottom: 10px; }
+  font-size: 1.9em;
+  margin-bottom: 10px;
+  font-weight: 700; }
 
 .verse .line {
   display: block; }
 .verse .word {
   display: inline-block;
   font-size: 1.2em;
-  font-family: "Karla", cursive;
   padding: 2px 0;
-  opacity: 0;
-  font-family: "Karla", cursive; }
+  opacity: 0; }
 
 .nojs .word {
   color: black; }
