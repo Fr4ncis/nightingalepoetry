@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D541F2EF18BE4FE600D6C0BD /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D541F2ED18BE4FE600D6C0BD /* NotificationViewController.m */; };
+		D541F2F018BE4FE600D6C0BD /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D541F2EE18BE4FE600D6C0BD /* NotificationViewController.xib */; };
 		D580BA1E18BE2B6600B5D224 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D580BA1D18BE2B6600B5D224 /* Foundation.framework */; };
 		D580BA2018BE2B6600B5D224 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D580BA1F18BE2B6600B5D224 /* CoreGraphics.framework */; };
 		D580BA2218BE2B6600B5D224 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D580BA2118BE2B6600B5D224 /* UIKit.framework */; };
@@ -40,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D541F2EC18BE4FE600D6C0BD /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		D541F2ED18BE4FE600D6C0BD /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		D541F2EE18BE4FE600D6C0BD /* NotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
 		D580BA1A18BE2B6600B5D224 /* Nightingale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nightingale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D580BA1D18BE2B6600B5D224 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D580BA1F18BE2B6600B5D224 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -136,6 +141,9 @@
 				D580BA2D18BE2B6600B5D224 /* AppDelegate.m */,
 				D5ABEA6118BE3EDA00031A58 /* PoemAnnotation.h */,
 				D5ABEA6218BE3EDA00031A58 /* PoemAnnotation.m */,
+				D541F2EC18BE4FE600D6C0BD /* NotificationViewController.h */,
+				D541F2ED18BE4FE600D6C0BD /* NotificationViewController.m */,
+				D541F2EE18BE4FE600D6C0BD /* NotificationViewController.xib */,
 				D5EEDA4D18BE48FF00F2B6EC /* DiscoveredPoemAnnotation.h */,
 				D5EEDA4E18BE48FF00F2B6EC /* DiscoveredPoemAnnotation.m */,
 				D5E7475218BE3E4400D71180 /* PoemAnnotationView.h */,
@@ -263,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D541F2F018BE4FE600D6C0BD /* NotificationViewController.xib in Resources */,
 				D5F80BDE18BE2EC500B69BDC /* MapLocationsViewController.xib in Resources */,
 				D580BA3618BE2B6600B5D224 /* Images.xcassets in Resources */,
 				D580BA2818BE2B6600B5D224 /* InfoPlist.strings in Resources */,
@@ -290,6 +299,7 @@
 				D5EEDA4C18BE488400F2B6EC /* DiscoveredPoemAnnotationView.m in Sources */,
 				D580BA2E18BE2B6600B5D224 /* AppDelegate.m in Sources */,
 				D5EEDA4F18BE48FF00F2B6EC /* DiscoveredPoemAnnotation.m in Sources */,
+				D541F2EF18BE4FE600D6C0BD /* NotificationViewController.m in Sources */,
 				D5E7475418BE3E4400D71180 /* PoemAnnotationView.m in Sources */,
 				D580BA2A18BE2B6600B5D224 /* main.m in Sources */,
 			);
