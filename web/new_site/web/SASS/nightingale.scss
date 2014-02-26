@@ -1,0 +1,64 @@
+@import 'bourbon/bourbon';
+@import 'reset';
+@import 'vars';
+
+.header,
+.footer{
+    background-color: #eee;
+    padding:10px;
+}
+
+.site-logo{
+    display: block;
+}
+
+.main{
+    margin:20px auto;
+    max-width: 800px;
+}
+
+.page-title{
+    font-size: 1.4em;
+}
+
+.blackboard{
+    border: 1px solid green;
+    font-family: arial, sans-serif;
+}
+
+.poem-display{
+    margin-top:20px;
+    text-align: center;
+}
+
+.poem-title{
+    color:green;
+    font-size:1.6em;
+    margin-bottom: 10px;
+}
+
+.verse{
+
+    .line{
+        display:block;
+    }
+
+    .word{
+        display:inline-block;
+        font-size: 1.2em;
+        font-family: $nightfont, cursive;
+        padding:2px 0;
+        opacity: 0;
+        font-family: $nightfont, cursive;
+    }
+}
+
+.nojs{
+    .word{
+        color:black;
+    }
+}
+
+.verse{
+    margin-bottom: 1em;
+}
