@@ -20,12 +20,10 @@
 
 		<link href="css/nightingale.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-
-
     </head>
     <body class="nightingale nojs">
         <script src="js/nojs.js"></script>
-        <header class="header" role="banner">
+        <header class="header {{#isnt basename 'index'}}visible{{/isnt}}" role="banner">
             <div class="header-wrapper">
                 <a href="/" alt="home" class="site-logo">
                     <image src="images/nightingalelogo.png" alt="Nightingale Poetry logo"/>
@@ -35,18 +33,21 @@
                 <div class="nav-wrapper">
                     <ul class="nav-links">
                         {{#each  pages}} 
-                            <li><a href ="{{pagename}}">{{data.title }}</a></li> 
-                        {{/each  }}                        
+                            {{#isnt basename 'index'}}
+                                <li><a href ="{{pagename}}">{{data.title }}</a></li> 
+                            {{/isnt}}
+                        {{/each }}                        
                     </ul>
                 </div>
             </nav>
         </header>
         {{> body }}
-        <footer>
-            <ul>
-                <li>
-                    Crafted Poetry Agency
-                </li>
+        <footer class="footer" role="contentinfo">
+            <span class="site-tagline">
+                Crafted Poetry Agency
+            </span>
+            <ul class="site-info">
+
                 <li>
                     07828 915814
                 </li>
@@ -55,12 +56,12 @@
                         info@nightingalepoetry.com
                     </a>
                 </li>
-                <li>
+                <li class="social facebook">
                     <a href="https://www.facebook.com/NightingalePoetry">
                         <img src="images/facebook_black-copy.png"/>
                     </a>
                 </li>
-                <li>
+                <li class="social twitter">
                     <a href="https://twitter.com/00NIGHTINGALE00">
                         <img src="images/twitter-bird-black.png"/>
                     </a>
