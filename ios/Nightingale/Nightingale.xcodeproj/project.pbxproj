@@ -19,6 +19,10 @@
 		D580BA3F18BE2B6600B5D224 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D580BA2118BE2B6600B5D224 /* UIKit.framework */; };
 		D580BA4718BE2B6600B5D224 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D580BA4518BE2B6600B5D224 /* InfoPlist.strings */; };
 		D580BA4918BE2B6600B5D224 /* NightingaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D580BA4818BE2B6600B5D224 /* NightingaleTests.m */; };
+		D5ABEA6318BE3EDA00031A58 /* PoemAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D5ABEA6218BE3EDA00031A58 /* PoemAnnotation.m */; };
+		D5E7475418BE3E4400D71180 /* PoemAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E7475318BE3E4400D71180 /* PoemAnnotationView.m */; };
+		D5EEDA4C18BE488400F2B6EC /* DiscoveredPoemAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EEDA4B18BE488400F2B6EC /* DiscoveredPoemAnnotationView.m */; };
+		D5EEDA4F18BE48FF00F2B6EC /* DiscoveredPoemAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EEDA4E18BE48FF00F2B6EC /* DiscoveredPoemAnnotation.m */; };
 		D5F80BDD18BE2EC500B69BDC /* MapLocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F80BDB18BE2EC500B69BDC /* MapLocationsViewController.m */; };
 		D5F80BDE18BE2EC500B69BDC /* MapLocationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5F80BDC18BE2EC500B69BDC /* MapLocationsViewController.xib */; };
 		D5F80BE018BE2FF100B69BDC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F80BDF18BE2FF100B69BDC /* MapKit.framework */; };
@@ -52,6 +56,14 @@
 		D580BA4418BE2B6600B5D224 /* NightingaleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NightingaleTests-Info.plist"; sourceTree = "<group>"; };
 		D580BA4618BE2B6600B5D224 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D580BA4818BE2B6600B5D224 /* NightingaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NightingaleTests.m; sourceTree = "<group>"; };
+		D5ABEA6118BE3EDA00031A58 /* PoemAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoemAnnotation.h; sourceTree = "<group>"; };
+		D5ABEA6218BE3EDA00031A58 /* PoemAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoemAnnotation.m; sourceTree = "<group>"; };
+		D5E7475218BE3E4400D71180 /* PoemAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoemAnnotationView.h; sourceTree = "<group>"; };
+		D5E7475318BE3E4400D71180 /* PoemAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoemAnnotationView.m; sourceTree = "<group>"; };
+		D5EEDA4A18BE488400F2B6EC /* DiscoveredPoemAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveredPoemAnnotationView.h; sourceTree = "<group>"; };
+		D5EEDA4B18BE488400F2B6EC /* DiscoveredPoemAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveredPoemAnnotationView.m; sourceTree = "<group>"; };
+		D5EEDA4D18BE48FF00F2B6EC /* DiscoveredPoemAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveredPoemAnnotation.h; sourceTree = "<group>"; };
+		D5EEDA4E18BE48FF00F2B6EC /* DiscoveredPoemAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveredPoemAnnotation.m; sourceTree = "<group>"; };
 		D5F80BDA18BE2EC500B69BDC /* MapLocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocationsViewController.h; sourceTree = "<group>"; };
 		D5F80BDB18BE2EC500B69BDC /* MapLocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocationsViewController.m; sourceTree = "<group>"; };
 		D5F80BDC18BE2EC500B69BDC /* MapLocationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapLocationsViewController.xib; sourceTree = "<group>"; };
@@ -122,6 +134,14 @@
 				D580BA2C18BE2B6600B5D224 /* AppDelegate.h */,
 				D5F80C2218BE319E00B69BDC /* Window.xib */,
 				D580BA2D18BE2B6600B5D224 /* AppDelegate.m */,
+				D5ABEA6118BE3EDA00031A58 /* PoemAnnotation.h */,
+				D5ABEA6218BE3EDA00031A58 /* PoemAnnotation.m */,
+				D5EEDA4D18BE48FF00F2B6EC /* DiscoveredPoemAnnotation.h */,
+				D5EEDA4E18BE48FF00F2B6EC /* DiscoveredPoemAnnotation.m */,
+				D5E7475218BE3E4400D71180 /* PoemAnnotationView.h */,
+				D5E7475318BE3E4400D71180 /* PoemAnnotationView.m */,
+				D5EEDA4A18BE488400F2B6EC /* DiscoveredPoemAnnotationView.h */,
+				D5EEDA4B18BE488400F2B6EC /* DiscoveredPoemAnnotationView.m */,
 				D5F80BDA18BE2EC500B69BDC /* MapLocationsViewController.h */,
 				D5F80BDB18BE2EC500B69BDC /* MapLocationsViewController.m */,
 				D5F80BDC18BE2EC500B69BDC /* MapLocationsViewController.xib */,
@@ -266,7 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5F80BDD18BE2EC500B69BDC /* MapLocationsViewController.m in Sources */,
+				D5ABEA6318BE3EDA00031A58 /* PoemAnnotation.m in Sources */,
+				D5EEDA4C18BE488400F2B6EC /* DiscoveredPoemAnnotationView.m in Sources */,
 				D580BA2E18BE2B6600B5D224 /* AppDelegate.m in Sources */,
+				D5EEDA4F18BE48FF00F2B6EC /* DiscoveredPoemAnnotation.m in Sources */,
+				D5E7475418BE3E4400D71180 /* PoemAnnotationView.m in Sources */,
 				D580BA2A18BE2B6600B5D224 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
