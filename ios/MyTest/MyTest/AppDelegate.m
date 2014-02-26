@@ -1,21 +1,18 @@
 //
 //  AppDelegate.m
-//  Nightingale
+//  MyTest
 //
 //  Created by Francesco Mattia on 26/02/2014.
 //  Copyright (c) 2014 AKQA. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "MapLocationsViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    UIWindow *window = [[UIApplication sharedApplication] windows][0];
-    window.rootViewController = [MapLocationsViewController new];
     return YES;
 }
 							
