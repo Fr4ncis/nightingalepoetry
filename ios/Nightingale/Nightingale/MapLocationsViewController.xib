@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MapLocationsViewController">
             <connections>
+                <outlet property="mapView" destination="MqC-ex-nlZ" id="IX6-6d-JR4"/>
                 <outlet property="view" destination="1" id="YtS-dW-AW3"/>
             </connections>
         </placeholder>
@@ -17,6 +18,9 @@
                 <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MqC-ex-nlZ">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="pco-Cu-89f"/>
+                    </connections>
                 </mapView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gradientWhite" translatesAutoresizingMaskIntoConstraints="NO" id="Fb8-UZ-uLm">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
