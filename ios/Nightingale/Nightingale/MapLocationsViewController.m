@@ -7,6 +7,7 @@
 //
 
 #import "MapLocationsViewController.h"
+#import "PoemViewController.h"
 #import "PoemAnnotation.h"
 #import "DiscoveredPoemAnnotation.h"
 #import "PoemAnnotationView.h"
@@ -51,6 +52,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)poemResume:(id)sender
+{
+    PoemViewController *poemViewController = [[PoemViewController alloc] init];
+    poemViewController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    [self presentViewController:poemViewController animated:YES completion:nil];
+}
+
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation {
     if ([annotation isKindOfClass:[PoemAnnotation class]])
     {
@@ -76,6 +84,12 @@
 {
     [mapView deselectAnnotation:view.annotation animated:NO];
     NSLog(@"annotation %@", view.annotation);
+}
+
+- (IBAction)recenterButtonPressed:(id)sender {
+    CLLocationCoordinate2D locationCoor = CLLocationCoordinate2DMake(51.521008, -0.105025);
+    [self.mapView setRegion:MKCoordinateRegionMakeWithDistance(locationCoor, 4000, 4000) animated:YES];
+    
 }
 
 @end

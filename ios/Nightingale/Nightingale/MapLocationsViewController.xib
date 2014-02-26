@@ -22,12 +22,25 @@
                         <outlet property="delegate" destination="-1" id="pco-Cu-89f"/>
                     </connections>
                 </mapView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gradientWhite" translatesAutoresizingMaskIntoConstraints="NO" id="Fb8-UZ-uLm">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pkw-T5-d7F">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Naz-HF-oI8">
+                            <rect key="frame" x="20" y="34" width="28" height="28"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="locationCenterButton">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="recenterButtonPressed:" destination="-1" eventType="touchUpInside" id="oPq-dd-5I5"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoImage" translatesAutoresizingMaskIntoConstraints="NO" id="weF-5e-2bK">
-                    <rect key="frame" x="110" y="29" width="100" height="38"/>
+                    <rect key="frame" x="110" y="24" width="100" height="38"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>
@@ -37,7 +50,7 @@
         </view>
     </objects>
     <resources>
-        <image name="gradientWhite" width="320" height="95"/>
+        <image name="locationCenterButton" width="28" height="28"/>
         <image name="logoImage" width="100" height="37"/>
     </resources>
 </document>
