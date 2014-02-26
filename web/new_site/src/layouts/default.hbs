@@ -25,7 +25,7 @@
     </head>
     <body class="nightingale nojs">
         <script src="js/nojs.js"></script>
-        <header class="header" role="banner">
+        <header class="header {{#isnt basename 'index'}}visible{{/isnt}}" role="banner">
             <div class="header-wrapper">
                 <a href="/" alt="home" class="site-logo">
                     <image src="images/nightingalelogo.png" alt="Nightingale Poetry logo"/>
