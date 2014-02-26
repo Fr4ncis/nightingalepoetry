@@ -20,8 +20,6 @@
 
 		<link href="css/nightingale.css" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-
-
     </head>
     <body class="nightingale nojs">
         <script src="js/nojs.js"></script>
@@ -35,8 +33,10 @@
                 <div class="nav-wrapper">
                     <ul class="nav-links">
                         {{#each  pages}} 
-                            <li><a href ="{{pagename}}">{{data.title }}</a></li> 
-                        {{/each  }}                        
+                            {{#isnt basename 'index'}}
+                                <li><a href ="{{pagename}}">{{data.title }}</a></li> 
+                            {{/isnt}}
+                        {{/each }}                        
                     </ul>
                 </div>
             </nav>
