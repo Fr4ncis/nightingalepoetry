@@ -13,14 +13,16 @@
 		D580BA2818BE2B6600B5D224 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D580BA2618BE2B6600B5D224 /* InfoPlist.strings */; };
 		D580BA2A18BE2B6600B5D224 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D580BA2918BE2B6600B5D224 /* main.m */; };
 		D580BA2E18BE2B6600B5D224 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D580BA2D18BE2B6600B5D224 /* AppDelegate.m */; };
-		D580BA3118BE2B6600B5D224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D580BA2F18BE2B6600B5D224 /* Main.storyboard */; };
-		D580BA3418BE2B6600B5D224 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D580BA3318BE2B6600B5D224 /* ViewController.m */; };
 		D580BA3618BE2B6600B5D224 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D580BA3518BE2B6600B5D224 /* Images.xcassets */; };
 		D580BA3D18BE2B6600B5D224 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D580BA3C18BE2B6600B5D224 /* XCTest.framework */; };
 		D580BA3E18BE2B6600B5D224 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D580BA1D18BE2B6600B5D224 /* Foundation.framework */; };
 		D580BA3F18BE2B6600B5D224 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D580BA2118BE2B6600B5D224 /* UIKit.framework */; };
 		D580BA4718BE2B6600B5D224 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D580BA4518BE2B6600B5D224 /* InfoPlist.strings */; };
 		D580BA4918BE2B6600B5D224 /* NightingaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D580BA4818BE2B6600B5D224 /* NightingaleTests.m */; };
+		D5F80BDD18BE2EC500B69BDC /* MapLocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F80BDB18BE2EC500B69BDC /* MapLocationsViewController.m */; };
+		D5F80BDE18BE2EC500B69BDC /* MapLocationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5F80BDC18BE2EC500B69BDC /* MapLocationsViewController.xib */; };
+		D5F80BE018BE2FF100B69BDC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F80BDF18BE2FF100B69BDC /* MapKit.framework */; };
+		D5F80C2318BE319E00B69BDC /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5F80C2218BE319E00B69BDC /* Window.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +46,17 @@
 		D580BA2B18BE2B6600B5D224 /* Nightingale-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nightingale-Prefix.pch"; sourceTree = "<group>"; };
 		D580BA2C18BE2B6600B5D224 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D580BA2D18BE2B6600B5D224 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D580BA3018BE2B6600B5D224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D580BA3218BE2B6600B5D224 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D580BA3318BE2B6600B5D224 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D580BA3518BE2B6600B5D224 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D580BA3B18BE2B6600B5D224 /* NightingaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightingaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D580BA3C18BE2B6600B5D224 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D580BA4418BE2B6600B5D224 /* NightingaleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NightingaleTests-Info.plist"; sourceTree = "<group>"; };
 		D580BA4618BE2B6600B5D224 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D580BA4818BE2B6600B5D224 /* NightingaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NightingaleTests.m; sourceTree = "<group>"; };
+		D5F80BDA18BE2EC500B69BDC /* MapLocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocationsViewController.h; sourceTree = "<group>"; };
+		D5F80BDB18BE2EC500B69BDC /* MapLocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocationsViewController.m; sourceTree = "<group>"; };
+		D5F80BDC18BE2EC500B69BDC /* MapLocationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapLocationsViewController.xib; sourceTree = "<group>"; };
+		D5F80BDF18BE2FF100B69BDC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D5F80C2218BE319E00B69BDC /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F80BE018BE2FF100B69BDC /* MapKit.framework in Frameworks */,
 				D580BA2018BE2B6600B5D224 /* CoreGraphics.framework in Frameworks */,
 				D580BA2218BE2B6600B5D224 /* UIKit.framework in Frameworks */,
 				D580BA1E18BE2B6600B5D224 /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		D580BA1C18BE2B6600B5D224 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D5F80BDF18BE2FF100B69BDC /* MapKit.framework */,
 				D580BA1D18BE2B6600B5D224 /* Foundation.framework */,
 				D580BA1F18BE2B6600B5D224 /* CoreGraphics.framework */,
 				D580BA2118BE2B6600B5D224 /* UIKit.framework */,
@@ -112,11 +118,13 @@
 		D580BA2318BE2B6600B5D224 /* Nightingale */ = {
 			isa = PBXGroup;
 			children = (
+				D5E7475118BE332300D71180 /* Views */,
 				D580BA2C18BE2B6600B5D224 /* AppDelegate.h */,
+				D5F80C2218BE319E00B69BDC /* Window.xib */,
 				D580BA2D18BE2B6600B5D224 /* AppDelegate.m */,
-				D580BA2F18BE2B6600B5D224 /* Main.storyboard */,
-				D580BA3218BE2B6600B5D224 /* ViewController.h */,
-				D580BA3318BE2B6600B5D224 /* ViewController.m */,
+				D5F80BDA18BE2EC500B69BDC /* MapLocationsViewController.h */,
+				D5F80BDB18BE2EC500B69BDC /* MapLocationsViewController.m */,
+				D5F80BDC18BE2EC500B69BDC /* MapLocationsViewController.xib */,
 				D580BA3518BE2B6600B5D224 /* Images.xcassets */,
 				D580BA2418BE2B6600B5D224 /* Supporting Files */,
 			);
@@ -150,6 +158,13 @@
 				D580BA4518BE2B6600B5D224 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5E7475118BE332300D71180 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F80BDE18BE2EC500B69BDC /* MapLocationsViewController.xib in Resources */,
 				D580BA3618BE2B6600B5D224 /* Images.xcassets in Resources */,
 				D580BA2818BE2B6600B5D224 /* InfoPlist.strings in Resources */,
-				D580BA3118BE2B6600B5D224 /* Main.storyboard in Resources */,
+				D5F80C2318BE319E00B69BDC /* Window.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D580BA3418BE2B6600B5D224 /* ViewController.m in Sources */,
+				D5F80BDD18BE2EC500B69BDC /* MapLocationsViewController.m in Sources */,
 				D580BA2E18BE2B6600B5D224 /* AppDelegate.m in Sources */,
 				D580BA2A18BE2B6600B5D224 /* main.m in Sources */,
 			);
@@ -280,14 +296,6 @@
 				D580BA2718BE2B6600B5D224 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D580BA2F18BE2B6600B5D224 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D580BA3018BE2B6600B5D224 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		D580BA4518BE2B6600B5D224 /* InfoPlist.strings */ = {
@@ -460,6 +468,7 @@
 				D580BA4E18BE2B6600B5D224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D580BA4F18BE2B6600B5D224 /* Build configuration list for PBXNativeTarget "NightingaleTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				D580BA5118BE2B6600B5D224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
