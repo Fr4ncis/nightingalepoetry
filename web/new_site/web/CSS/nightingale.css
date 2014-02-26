@@ -159,6 +159,8 @@ a:active {
   font-size: 1.2em;
   padding: 2px 0;
   opacity: 0; }
+.verse .author {
+  font-style: italic; }
 
 .nojs .word {
   color: black; }
